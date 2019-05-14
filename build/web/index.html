@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <style>
+            body {
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                background-color: #d6d3d3
+                
+            }
+
+            div.topnav {
+                text-align: center;
+                overflow: hidden;
+                background-color: #666666;
+            }
+            
+            div.a{
+                text-align: center;
+                font:Times New Roman;
+                font-size: 30px;
+                
+            }
+            div.b{
+                text-align: left;
+                font:Times New Roman;
+                font-size: 25px;
+            }
+            div.c{
+                text-align: center;
+                font:Times New Roman;
+                font-size: 15px;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div class="topnav">
+            <h1 style="color:white;"> Qtask </h1>
+            
+        </div>
+        <div class = "a">
+            <h2> Log In</h2>
+        </div>   
+        
+        <div class ="b">
+            <form action="VerifyUser" method="post">
+        <table align= "center" cellspacing="12" >
+            <tbody>
+                <tr>
+                    <td>Username</td>
+                    <td><input type="text" name="userid" value="" /></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td><input type="password" name="password" value=""/></td>
+                </tr>
+   
+                <tr>
+                    <td><input type="submit" value="Login"/></td>
+                    <td><input type="reset"/> </td>
+                   
+                </tr>
+   
+            </tbody>
+        </table>
+        </form>
+        </div>
+        
+        <div class="c">
+            <hr>
+            <a href="registration.jsp" >New User</a>
+        </div>
+    </body>
+</html>
